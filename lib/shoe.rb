@@ -13,7 +13,7 @@ class Shoe
   def brands=(brands)
     @brands = brands
     BRANDS << brands
-  
+
 
   def cobble
     self.condition = "new"
